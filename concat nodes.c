@@ -3,6 +3,14 @@
 #include <string.h>
 #include <stdlib.h>
 
+//create_node that creates a new linked list node and free_node that frees the memory associated with a node.
+
+//free_node(node) frees the memory associated with the given node; returns a 
+//pointer to the next node in the list previously headed by the given node
+
+//concat_nodes(head , str) modifies str to be a string representation of the
+//contents of the list with given head
+
 struct strnode{
     char str[5];
     struct strnode * next;
